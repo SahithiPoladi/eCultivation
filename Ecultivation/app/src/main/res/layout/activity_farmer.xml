@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@mipmap/bg"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+    <TextView
+        android:text="Farmer Registration Form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:id="@+id/tvfarmer"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textStyle="bold"
+        android:layout_below="@+id/tvfarmer"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000"
+        android:id="@+id/etfname"
+        android:hint='First Name'/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/etfname"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000"
+        android:id="@+id/etlname"
+         android:textStyle="bold"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/etlname"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000"
+        android:id="@+id/etage"
+        android:textStyle="bold"
+        android:hint="Age(yrs)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000"
+        android:id="@+id/etyears"
+        android:layout_below="@+id/etage"
+        android:hint="Years in Farming"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:textStyle="bold"
+        android:layout_below="@+id/etyears"
+        android:id="@+id/etnumber"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000"
+        android:hint="Mobile No"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_below="@+id/etnumber"
+                android:id="@+id/etgender"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="#000000"
+                android:hint="Gender"/>
+
+            <TextView
+                android:text="Address"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvaddress"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvaddress"
+                android:textColorHint="#000000"
+                android:id="@+id/etvillage"
+                android:hint="Village"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_below="@+id/etvillage"
+                android:textColorHint="#000000"
+                android:id="@+id/etdistrict"
+                android:hint="District"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_below="@+id/etdistrict"
+                android:textColorHint="#000000"
+                android:id="@+id/etpin"
+                android:hint="PIN"/>
+
+            <TextView
+                android:text="Land size(cultivation)"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/etpin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvcul"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvcul"
+                android:textColorHint="#000000"
+                android:id="@+id/etacre1"
+                android:hint="Acre"/>
+
+            <TextView
+                android:text="Land size(own)"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/etacre1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvown"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvown"
+                android:textColorHint="#000000"
+                android:id="@+id/etacre2"
+                android:hint="Acre"/>
+
+            <TextView
+                android:text="Details"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvdetails"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textLongMessage"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_below="@+id/etacre2"
+                android:id="@+id/etirrigation"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="#000000"
+                android:hint="Irrigation Source"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textLongMessage"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_below="@+id/etirrigation"
+                android:id="@+id/etpractice"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="#000000"
+                android:hint="Practice being followed"/>
+
+            <TextView
+                android:text="Field Crop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/rblaser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvfield"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvfield"
+                android:textColorHint="#000000"
+                android:id="@+id/etname1"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etname1"
+                android:textColorHint="#000000"
+                android:id="@+id/etvariety1"
+                android:hint="Variety"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etvariety1"
+                android:textColorHint="#000000"
+                android:id="@+id/etyield1"
+                android:hint="Yield"/>
+
+            <TextView
+                android:text="Horticulture Crop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/etyield1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvcrop"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvcrop"
+                android:textColorHint="#000000"
+                android:id="@+id/etname2"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etname2"
+                android:textColorHint="#000000"
+                android:id="@+id/etvariety2"
+                android:hint="Variety"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etvariety2"
+                android:textColorHint="#000000"
+                android:id="@+id/etyield2"
+                android:hint="Yield"/>
+
+            <TextView
+                android:text="Fodder Crop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/etyield2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvfodder"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvfodder"
+                android:textColorHint="#000000"
+                android:id="@+id/etname3"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etname3"
+                android:textColorHint="#000000"
+                android:id="@+id/etvariety3"
+                android:hint="Variety"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etvariety3"
+                android:textColorHint="#000000"
+                android:id="@+id/etyield3"
+                android:hint="Yield"/>
+
+            <TextView
+                android:text="Flower Crop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/etyield3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvflower"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvflower"
+                android:textColorHint="#000000"
+                android:id="@+id/etname4"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etname4"
+                android:textColorHint="#000000"
+                android:id="@+id/etvariety4"
+                android:hint="Variety"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etvariety4"
+                android:textColorHint="#000000"
+                android:id="@+id/etyield4"
+                android:hint="Yield"/>
+
+            <TextView
+                android:text="Agro Forestry"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_below="@+id/etyield4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvagro"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvagro"
+                android:textColorHint="#000000"
+                android:id="@+id/etname5"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etname5"
+                android:textColorHint="#000000"
+                android:id="@+id/etvariety5"
+                android:hint="Variety"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/etvariety5"
+                android:textColorHint="#000000"
+                android:id="@+id/etyield5"
+                android:hint="Yield"/>
+
+            <Button
+                android:text="Capture Images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etyield5"
+                android:id="@+id/bimage"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:background="#D8F781"
+                android:textColor="#000000"/>
+
+            <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bimage"
+                android:id="@+id/bsubmit"
+                android:textStyle="bold"
+                android:background="#D8F781"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
