@@ -3,7 +3,7 @@ Operating system : Android
 
 Technology Used : Java, XML, PHP
 
-Platform Used : Android Studio for Java and XML and
+Platform Used : Android Studio for Java, XML and
 000webhost for database.
 
 E-cultivation is an application which enhances the livelihood of farming communities in villages 
