@@ -25,5 +25,5 @@ may be in the form of image or a text. If the farm is attacked by a pest then ag
 specialists even mention the quantity of pesticides or fertilizers to be sprayed so that the farm
 doesn’t destroy and the pest attack is reduced. The farmers are advised by agricultural experts
 on a daily basis and are benefited through this application. If farmer cannot do the
-work there would be a village coordinator who will be helping farmers in growing their
+work, a village coordinator is appointed who will be helping farmers in growing their
 crops without any damage.
